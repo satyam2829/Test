@@ -1,4 +1,6 @@
 def greeting(name, message):
 	return "hello" + name + " " + message
 
-greeting("Satyam", "Good Afternoon")
+name = input("Enter the person name: ")
+message = input("Enter the greeting message: ")
+greeting(name, message)
